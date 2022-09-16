@@ -15,6 +15,7 @@ def check_input_int():
         except ValueError:
             print('Неверный ввод, введите число.')
     return number
+
 number = check_input_int()
 
 '''Функция для преобразования десятичного числа в двоичное'''
